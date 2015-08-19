@@ -14,6 +14,8 @@
 		8467C5F21B840B4600F2BB20 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8467C5F11B840B4600F2BB20 /* Images.xcassets */; };
 		8467C5F51B840B4600F2BB20 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8467C5F31B840B4600F2BB20 /* LaunchScreen.xib */; };
 		8467C6011B840B4600F2BB20 /* _6__UIPopoverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8467C6001B840B4600F2BB20 /* _6__UIPopoverTests.m */; };
+		84692F251B850AE600E6970F /* NVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84692F241B850AE600E6970F /* NVViewController.m */; };
+		84692F281B85194400E6970F /* NVEducationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84692F271B85194400E6970F /* NVEducationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		8467C5FA1B840B4600F2BB20 /* 36. UIPopoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "36. UIPopoverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8467C5FF1B840B4600F2BB20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8467C6001B840B4600F2BB20 /* _6__UIPopoverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _6__UIPopoverTests.m; sourceTree = "<group>"; };
+		84692F231B850AE600E6970F /* NVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVViewController.h; sourceTree = "<group>"; };
+		84692F241B850AE600E6970F /* NVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVViewController.m; sourceTree = "<group>"; };
+		84692F261B85194400E6970F /* NVEducationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVEducationViewController.h; sourceTree = "<group>"; };
+		84692F271B85194400E6970F /* NVEducationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVEducationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				8467C5E91B840B4600F2BB20 /* AppDelegate.m */,
 				8467C5EB1B840B4600F2BB20 /* NVTableViewController.h */,
 				8467C5EC1B840B4600F2BB20 /* NVTableViewController.m */,
+				84692F261B85194400E6970F /* NVEducationViewController.h */,
+				84692F271B85194400E6970F /* NVEducationViewController.m */,
+				84692F231B850AE600E6970F /* NVViewController.h */,
+				84692F241B850AE600E6970F /* NVViewController.m */,
 				8467C5EE1B840B4600F2BB20 /* Main.storyboard */,
 				8467C5F11B840B4600F2BB20 /* Images.xcassets */,
 				8467C5F31B840B4600F2BB20 /* LaunchScreen.xib */,
@@ -219,6 +229,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84692F251B850AE600E6970F /* NVViewController.m in Sources */,
+				84692F281B85194400E6970F /* NVEducationViewController.m in Sources */,
 				8467C5ED1B840B4600F2BB20 /* NVTableViewController.m in Sources */,
 				8467C5EA1B840B4600F2BB20 /* AppDelegate.m in Sources */,
 				8467C5E71B840B4600F2BB20 /* main.m in Sources */,
@@ -418,6 +430,7 @@
 				8467C6061B840B4600F2BB20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8467C6071B840B4600F2BB20 /* Build configuration list for PBXNativeTarget "36. UIPopoverTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +439,7 @@
 				8467C6091B840B4600F2BB20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

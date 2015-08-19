@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NVTableViewController : UITableViewController
+@interface NVTableViewController : UITableViewController <UITextFieldDelegate>
 
 @property (weak, nonatomic) IBOutlet UITextField *fieldFirstname;
 @property (weak, nonatomic) IBOutlet UITextField *fieldLastname;
