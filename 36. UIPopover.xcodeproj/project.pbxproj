@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		8467C5E71B840B4600F2BB20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8467C5E61B840B4600F2BB20 /* main.m */; };
 		8467C5EA1B840B4600F2BB20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8467C5E91B840B4600F2BB20 /* AppDelegate.m */; };
-		8467C5ED1B840B4600F2BB20 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8467C5EC1B840B4600F2BB20 /* ViewController.m */; };
+		8467C5ED1B840B4600F2BB20 /* NVTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8467C5EC1B840B4600F2BB20 /* NVTableViewController.m */; };
 		8467C5F01B840B4600F2BB20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8467C5EE1B840B4600F2BB20 /* Main.storyboard */; };
 		8467C5F21B840B4600F2BB20 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8467C5F11B840B4600F2BB20 /* Images.xcassets */; };
 		8467C5F51B840B4600F2BB20 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8467C5F31B840B4600F2BB20 /* LaunchScreen.xib */; };
@@ -32,8 +32,8 @@
 		8467C5E61B840B4600F2BB20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8467C5E81B840B4600F2BB20 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8467C5E91B840B4600F2BB20 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8467C5EB1B840B4600F2BB20 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8467C5EC1B840B4600F2BB20 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8467C5EB1B840B4600F2BB20 /* NVTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NVTableViewController.h; sourceTree = "<group>"; };
+		8467C5EC1B840B4600F2BB20 /* NVTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NVTableViewController.m; sourceTree = "<group>"; };
 		8467C5EF1B840B4600F2BB20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8467C5F11B840B4600F2BB20 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8467C5F41B840B4600F2BB20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -83,8 +83,8 @@
 			children = (
 				8467C5E81B840B4600F2BB20 /* AppDelegate.h */,
 				8467C5E91B840B4600F2BB20 /* AppDelegate.m */,
-				8467C5EB1B840B4600F2BB20 /* ViewController.h */,
-				8467C5EC1B840B4600F2BB20 /* ViewController.m */,
+				8467C5EB1B840B4600F2BB20 /* NVTableViewController.h */,
+				8467C5EC1B840B4600F2BB20 /* NVTableViewController.m */,
 				8467C5EE1B840B4600F2BB20 /* Main.storyboard */,
 				8467C5F11B840B4600F2BB20 /* Images.xcassets */,
 				8467C5F31B840B4600F2BB20 /* LaunchScreen.xib */,
@@ -219,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8467C5ED1B840B4600F2BB20 /* ViewController.m in Sources */,
+				8467C5ED1B840B4600F2BB20 /* NVTableViewController.m in Sources */,
 				8467C5EA1B840B4600F2BB20 /* AppDelegate.m in Sources */,
 				8467C5E71B840B4600F2BB20 /* main.m in Sources */,
 			);
